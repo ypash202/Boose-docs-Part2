@@ -12,20 +12,70 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/getting-started.md",
+      "source_relative_path": "docs/1.introduction.md",
       "output": {
         ".html": {
-          "relative_path": "docs/getting-started.html"
+          "relative_path": "docs/1.introduction.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/introduction.md",
+      "source_relative_path": "docs/2.Variables.md",
       "output": {
         ".html": {
-          "relative_path": "docs/introduction.html"
+          "relative_path": "docs/2.Variables.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/3.ControlFlow.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/3.ControlFlow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/4.methods.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/4.methods.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/5.Testing.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/5.Testing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/6.Designpatterns.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/6.Designpatterns.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/7.about.md.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/7.about.md.html"
         }
       },
       "version": ""
