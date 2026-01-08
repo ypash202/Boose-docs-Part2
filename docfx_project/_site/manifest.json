@@ -72,10 +72,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/7.about.md.md",
+      "source_relative_path": "docs/7.about.md",
       "output": {
         ".html": {
-          "relative_path": "docs/7.about.md.html"
+          "relative_path": "docs/7.about.html"
         }
       },
       "version": ""

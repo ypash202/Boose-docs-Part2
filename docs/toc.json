@@ -1,2 +1,2 @@
 
-{"items":[{"name":"Introduction","href":"1.introduction.html","topicHref":"1.introduction.html"},{"name":"Variables","href":"2.Variables.html","topicHref":"2.Variables.html"},{"name":"Control Flow","href":"3.ControlFlow.html","topicHref":"3.ControlFlow.html"},{"name":"Methods","href":"4.methods.html","topicHref":"4.methods.html"},{"name":"Testing","href":"5.Testing.html","topicHref":"5.Testing.html"},{"name":"Design Patterns","href":"6.Designpatterns.html","topicHref":"6.Designpatterns.html"},{"name":"About","href":"7.about.html","topicHref":"7.about.html"}],"pdf":false}
+{"items":[{"name":"Docs","href":"docs/1.introduction.html","tocHref":"docs/toc.html","topicHref":"docs/1.introduction.html"}],"pdf":false}

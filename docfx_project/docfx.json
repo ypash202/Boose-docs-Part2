@@ -3,22 +3,22 @@
   "build": {
     "content": [
       {
-        "src": "docs",
         "files": [
-          "*.md",
-          "toc.yml"
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
         ]
       }
     ],
     "resource": [
       {
-        "src": "docs",
         "files": [
           "images/**"
         ]
       }
     ],
-    "output": "../docs",
+    "output": "_site",
     "template": [
       "default",
       "modern"
