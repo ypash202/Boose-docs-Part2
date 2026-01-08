@@ -81,6 +81,166 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My1restrictedIfs.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My1restrictedIfs.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My1restrictedInt.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My1restrictedInt.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My1restrictedMethods.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My1restrictedMethods.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My1unRestrictedIfs.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My1unRestrictedIfs.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My1unrestrictedInt.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My1unrestrictedInt.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My1unrestrictedMathods.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My1unrestrictedMathods.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My1unrestrictedMethods.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My1unrestrictedMethods.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My2restrictedReals.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My2restrictedReals.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My2restrictedWhiles.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My2restrictedWhiles.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My2unrestrictedReals.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My2unrestrictedReals.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My2unrestrictedWhiles.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My2unrestrictedWhiles.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My3restrictedArrays.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My3restrictedArrays.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My3restrictedFors.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My3restrictedFors.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My3unrestrictedArrays.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My3unrestrictedArrays.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My3unrestrictedFors.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My3unrestrictedFors.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/UnitTestPassed.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/UnitTestPassed.png"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "docs/toc.yml",
       "output": {
