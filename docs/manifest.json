@@ -15,7 +15,7 @@
       "source_relative_path": "docs/1.introduction.md",
       "output": {
         ".html": {
-          "relative_path": "docs/1.introduction.html"
+          "relative_path": "1.introduction.html"
         }
       },
       "version": ""
@@ -25,7 +25,7 @@
       "source_relative_path": "docs/2.Variables.md",
       "output": {
         ".html": {
-          "relative_path": "docs/2.Variables.html"
+          "relative_path": "2.Variables.html"
         }
       },
       "version": ""
@@ -35,7 +35,7 @@
       "source_relative_path": "docs/3.ControlFlow.md",
       "output": {
         ".html": {
-          "relative_path": "docs/3.ControlFlow.html"
+          "relative_path": "3.ControlFlow.html"
         }
       },
       "version": ""
@@ -45,7 +45,7 @@
       "source_relative_path": "docs/4.methods.md",
       "output": {
         ".html": {
-          "relative_path": "docs/4.methods.html"
+          "relative_path": "4.methods.html"
         }
       },
       "version": ""
@@ -55,7 +55,7 @@
       "source_relative_path": "docs/5.Testing.md",
       "output": {
         ".html": {
-          "relative_path": "docs/5.Testing.html"
+          "relative_path": "5.Testing.html"
         }
       },
       "version": ""
@@ -65,17 +65,177 @@
       "source_relative_path": "docs/6.Designpatterns.md",
       "output": {
         ".html": {
-          "relative_path": "docs/6.Designpatterns.html"
+          "relative_path": "6.Designpatterns.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/7.about.md.md",
+      "source_relative_path": "docs/7.about.md",
       "output": {
         ".html": {
-          "relative_path": "docs/7.about.md.html"
+          "relative_path": "7.about.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My1restrictedIfs.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My1restrictedIfs.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My1restrictedInt.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My1restrictedInt.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My1restrictedMethods.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My1restrictedMethods.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My1unRestrictedIfs.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My1unRestrictedIfs.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My1unrestrictedInt.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My1unrestrictedInt.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My1unrestrictedMathods.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My1unrestrictedMathods.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My1unrestrictedMethods.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My1unrestrictedMethods.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My2restrictedReals.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My2restrictedReals.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My2restrictedWhiles.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My2restrictedWhiles.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My2unrestrictedReals.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My2unrestrictedReals.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My2unrestrictedWhiles.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My2unrestrictedWhiles.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My3restrictedArrays.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My3restrictedArrays.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My3restrictedFors.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My3restrictedFors.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My3unrestrictedArrays.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My3unrestrictedArrays.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/My3unrestrictedFors.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/My3unrestrictedFors.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "docs/images/UnitTestPassed.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/UnitTestPassed.png"
         }
       },
       "version": ""
@@ -83,29 +243,6 @@
     {
       "type": "Toc",
       "source_relative_path": "docs/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "docs/toc.html"
-        },
-        ".json": {
-          "relative_path": "docs/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "index.md",
-      "output": {
-        ".html": {
-          "relative_path": "index.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html"

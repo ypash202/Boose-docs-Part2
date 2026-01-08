@@ -1,42 +1,37 @@
 {
-  "docs/1.introduction.html": {
-    "href": "docs/1.introduction.html",
+  "1.introduction.html": {
+    "href": "1.introduction.html",
     "title": "BOOSE Interpreter – Part 2 | mysite",
     "summary": "BOOSE Interpreter – Part 2 This documentation summarises the development work completed in Part 2 of the BOOSE Interpreter assignment. Designed and implemented all features manually in C#, extending the interpreter to support more advanced programming constructs. Summary of Achievements Successfully implemented: Integer, real, and array variables IF/ELSE, WHILE, and FOR control flow User-defined methods Accurate expression evaluation Full execution of provided BOOSE programs Unit testing of all major features Interface-based command structure Factory, Singleton and Strategy design patterns Complete project documentation and GitHub version control All programs provided for Part 2 (restricted and unrestricted versions) were run in the custom interpreter, and screenshot evidence is included throughout this site."
   },
-  "docs/2.Variables.html": {
-    "href": "docs/2.Variables.html",
+  "2.Variables.html": {
+    "href": "2.Variables.html",
     "title": "Variables | mysite",
     "summary": "Variables Integer Variables Integers are stored, retrieved, and used in calculations and drawing commands. Real (Floating Point) Variables Real numbers allow decimal calculations such as multiplication and circle circumference. Arrays (int and real) Arrays allow multiple values to be stored using poke and retrieved with peek. array int nums 10 poke nums 5 = 99 peek x = nums 5"
   },
-  "docs/3.ControlFlow.html": {
-    "href": "docs/3.ControlFlow.html",
+  "3.ControlFlow.html": {
+    "href": "3.ControlFlow.html",
     "title": "Control Flow: IF,While, For | mysite",
     "summary": "Control Flow: IF,While, For I replaced all the original BOOSE control flow classes. My interpreter now understands and executes: IF / ELSE Including nested IF statements. WHILE loops Repeats while a condition is true. FOR loops Counts up or down and supports steps (like step 2 or step -2)."
   },
-  "docs/4.methods.html": {
-    "href": "docs/4.methods.html",
+  "4.methods.html": {
+    "href": "4.methods.html",
     "title": "User Defined Methods | mysite",
     "summary": "User Defined Methods Added full support for creating and calling methods. Methods allow you to reuse BOOSE code and return values. Method Example method int mulMethod int one, int two mulMethod = one * two end method call mulMethod 10 5 write mulMethod Combining methods with drawing Methods can now calculate numbers and use them in shapes. Result Methods are fully implemented : parameters, return values, and multiple calls all work."
   },
-  "docs/5.Testing.html": {
-    "href": "docs/5.Testing.html",
+  "5.Testing.html": {
+    "href": "5.Testing.html",
     "title": "Unit Testing | mysite",
     "summary": "Unit Testing Created a full unit testing project and wrote tests for all new features. These were tested: MoveToCommand DrawToCommand Variable evaluation Arrays IF / ELSE WHILE loops FOR loops Method return values Whole programs"
   },
-  "docs/6.Designpatterns.html": {
-    "href": "docs/6.Designpatterns.html",
+  "6.Designpatterns.html": {
+    "href": "6.Designpatterns.html",
     "title": "Design Patterns Used | mysite",
     "summary": "Design Patterns Used Used three design patterns in this project: Factory Pattern Used to create commands based on input. BOOSE reads a line like circle 20 The factory returns the correct class (CircleCommand, MoveToCommand, etc.) Singleton Pattern Shared structures like the program store exist only once. Example: ProgramStore.Instance Additional Design pattern: Command Pattern The Command Pattern, a behavioural design pattern, is used to encapsulate each BOOSE instruction (such as moveto and drawto) as an object implementing the ICommand interface. The MyStoredProgram class stores these command objects and executes them sequentially. The ExecutionContext acts as the receiver, maintaining the program state and providing the necessary context for command execution. This approach improves modularity, extensibility, and separation of concerns."
   },
-  "docs/7.about.md.html": {
-    "href": "docs/7.about.md.html",
+  "7.about.html": {
+    "href": "7.about.html",
     "title": "Summary and Reflection | mysite",
     "summary": "Summary and Reflection This portfolio demonstrates the work carried out by Pasang Yangzi Sherpa in completing Part 2 of the BOOSE interpreter assignment. The interpreter now includes: Full BOOSE language execution Variables, arrays and expressions Loops and branching User-defined functions Automated unit testing Object-oriented design principles Clean code documentation GitHub repository with version history A published DocFX static reference site Through this process, the student gained practical experience with: Parsing code and storing execution context Building a mini language interpreter from scratch Applying multiple software design patterns Debugging and validating code using tests Presenting technical work clearly Completed by Pasang Yangzi Sherpa Basic Object Oriented Software Engineering"
-  },
-  "index.html": {
-    "href": "index.html",
-    "title": "This is the HOMEPAGE. | mysite",
-    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
   }
 }

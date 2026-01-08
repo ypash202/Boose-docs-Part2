@@ -3,22 +3,22 @@
   "build": {
     "content": [
       {
+        "src": "docs",
         "files": [
-          "**/*.{md,yml}"
-        ],
-        "exclude": [
-          "_site/**"
+          "*.md",
+          "toc.yml"
         ]
       }
     ],
     "resource": [
       {
+        "src": "docs",
         "files": [
           "images/**"
         ]
       }
     ],
-    "output": "_site",
+    "output": "../docs",
     "template": [
       "default",
       "modern"
@@ -27,7 +27,7 @@
       "_appName": "mysite",
       "_appTitle": "mysite",
       "_enableSearch": true,
-      "pdf": true
+      "pdf": false
     }
   }
 }

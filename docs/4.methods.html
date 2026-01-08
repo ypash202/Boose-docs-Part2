@@ -2,21 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Control Flow: IF,While, For | mysite </title>
+      <title>User Defined Methods | mysite </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Control Flow: IF,While, For | mysite ">
+      <meta name="title" content="User Defined Methods | mysite ">
       
       
-      <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../public/docfx.min.css">
-      <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.html">
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
       <meta name="docfx:tocrel" content="toc.html">
       
-      <meta name="docfx:rel" content="../">
+      <meta name="docfx:rel" content="">
       
       
-      <meta name="docfx:docurl" content="https://github.com/ypash202/Boose-docs-Part2/blob/main/docfx_project/docs/3.ControlFlow.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/ypash202/Boose-docs-Part2/blob/main/docfx_project/docs/4.methods.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -30,7 +30,7 @@
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
 
-      <script type="module" src="./../public/docfx.min.js"></script>
+      <script type="module" src="./public/docfx.min.js"></script>
 
       <script>
         const theme = localStorage.getItem('theme') || 'auto'
@@ -43,8 +43,8 @@
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="mysite">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="mysite">
             mysite
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,55 +63,40 @@
     </header>
 
     <main class="container-xxl">
-      <div class="toc-offcanvas">
-        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <nav class="toc" id="toc"></nav>
-          </div>
-        </div>
-      </div>
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
-            <i class="bi bi-list"></i>
-          </button>
 
           <nav id="breadcrumb"></nav>
         </div>
 
         <article data-uid="">
-<h1 id="control-flow-ifwhile-for">Control Flow: IF,While, For</h1>
+<h1 id="user-defined-methods">User Defined Methods</h1>
 
-<p>I replaced all the original BOOSE control flow classes.
-My interpreter now understands and executes:</p>
+<p>Added full support for creating and calling methods.
+Methods allow you to reuse BOOSE code and return values.</p>
 <ol>
-<li>IF / ELSE</li>
+<li>Method Example
+method int mulMethod int one, int two
+mulMethod = one * two
+end method</li>
 </ol>
-<p>Including nested IF statements.</p>
-<p><img src="images/My1restrictedIfs.png" alt="Restricted If Example">
-<img src="images/My1unrestrictedIfs.png" alt="Unrestricted If Example"></p>
+<p>call mulMethod 10 5
+write mulMethod</p>
+<p><img src="images/My1restrictedMethods.png" alt="Restricted Methods Example">
+<img src="images/My1unrestrictedMethods.png" alt="Unrestricted Methods Example"></p>
 <ol start="2">
-<li>WHILE loops</li>
+<li>Combining methods with drawing</li>
 </ol>
-<p>Repeats while a condition is true.</p>
-<p><img src="images/My2restrictedWhiles.png" alt="Restricted While Example">
-<img src="images/My2unrestrictedWhiles.png" alt="Unrestricted While Example"></p>
-<ol start="3">
-<li>FOR loops</li>
-</ol>
-<p>Counts up or down and supports steps (like step 2 or step -2).</p>
-<p><img src="images/My3restrictedFors.png" alt="Restricted For Example">
-<img src="images/My3unrestrictedFors.png" alt="Unrestricted For Example"></p>
+<p>Methods can now calculate numbers and use them in shapes.
+<img src="images/My1unrestrictedMathods.png" alt="Unrestricted Method Output"></p>
+<h1 id="result">Result</h1>
+<p>Methods are fully implemented : parameters, return values, and multiple calls all work.</p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ypash202/Boose-docs-Part2/blob/main/docfx_project/docs/3.ControlFlow.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ypash202/Boose-docs-Part2/blob/main/docfx_project/docs/4.methods.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
