@@ -2,3 +2,15 @@
   href: introduction.md
 - name: Getting Started
   href: getting-started.md
+  name: Variables
+  href: variables.md
+- name: Arrays
+  href: arrays.md
+- name: Conditionals (IF/ELSE)
+  href: conditionals.md
+- name: Loops (FOR/WHILE)
+  href: loops.md
+- name: Methods and Calls
+  href: methods.md
+- name: Unit Testing
+  href: unit-tests.md
